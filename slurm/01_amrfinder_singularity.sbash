@@ -1,0 +1,8 @@
+# Si tu clúster lo requiere:
+#module load singularity
+
+mkdir -p containers
+
+singularity pull \
+  containers/amrfinder_4.2.7_db2026-08-07.1.sif \
+  docker://ncbi/amr:4.2.7-2026-08-07.1
