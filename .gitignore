@@ -4,9 +4,9 @@
 __pycache__/
 *.py[cod]
 
-logs/
-results/
-resultados_*/
+/logs/
+/results/
+/resultados_*/
 *.zip
 *.sif
 

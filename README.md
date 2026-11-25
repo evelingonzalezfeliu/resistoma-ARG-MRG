@@ -308,19 +308,6 @@ Algunos scripts conservan rutas del análisis original. Deben ajustarse o parame
 | MobileElementFinder | 1.0.3; base 1.0.2 |
 | IntegronFinder | 2.0.6 |
 
-## Estado de los análisis originales
-
-| Análisis | Cobertura observada | Nota |
-|---|---:|---|
-| AMRFinderPlus combinado | 100 aislados | Utilizado para ARG principales |
-| DIAMOND/BacMet | 100 aislados | Utilizado para MRG principales |
-| ISEScan | 100 aislados | Resultados disponibles |
-| MOB-suite | 100 aislados | Resultados disponibles |
-| IntegronFinder | 99/100 aislados | Falta `B28_A03`; 20 aislados con señal de integrón |
-| MobileElementFinder | 87/100 salidas finales | 13 carpetas incompletas; deben revisarse los logs |
-
-Los conteos de IntegronFinder y MobileElementFinder corresponden a un control inicial de integridad y no reemplazan la revisión biológica de los hallazgos.
-
 ## Criterios principales de ARG y MRG
 
 - ARG principales: filas `Type=AMR` de AMRFinderPlus combinado con `--plus`.
